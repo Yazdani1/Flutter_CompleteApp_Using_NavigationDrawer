@@ -71,14 +71,9 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-
-      body: new Center(
-        child: new Text(
-          "Hey its Home Page..",
-          style: new TextStyle(fontSize: 30.0),
-        ),
-      ),
-
+    body: new Center(
+      child: new Text("Home Page",style: new TextStyle(fontSize: 50.0),),
+    ),
 
     );
   }
